@@ -27,4 +27,4 @@ curl https://gist.githubusercontent.com/pullobi/2157e7542b5272d7276512d5bbaa0835
 
 ---
 ### OS
-#### I am using **Garuda Linux (sway)** as my distro. I don't know if it will work on other distros.
+> I am using **Garuda Linux (sway)** as my distro. I don't have a reason that other arch-based distros won't work.
