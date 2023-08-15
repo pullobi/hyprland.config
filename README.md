@@ -6,11 +6,9 @@
 #### Make sure you have these installed.
 ---
 ### Installation
-#### i will make an installation script,but for now ,use:
+#### You can install the config using install.sh, but if you want to do it in a single line:
 ```
-git clone https://github.com/pullobi/hyprland.config && cd hyprland.config
-cp -r * ~/.config/
-
+curl https://gist.githubusercontent.com/pullobi/2157e7542b5272d7276512d5bbaa0835/raw/1175997918bb863a46fb3337d4d2ddbe182307d4/gistfile1.txt | sh
 ```
 ---
 ### Screenshots:
