@@ -10,7 +10,7 @@ include $HOME/.config/sway/config.d/*
 # xwayland disable
 
 # Set the background image
-output * bg /home/user/.config/sway/backgrounds/nord-qsave-2.png fill
+output * bg /home/user/.config/sway/backgrounds/dark_text.png fill
 
 # Set the initial keyboard layout
 input * {

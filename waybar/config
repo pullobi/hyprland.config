@@ -5,8 +5,8 @@
     "margin": "0 0 0 0",
     //"width": 1350, // Waybar width
     // Choose the order of the modules idle_inhibitor
-    "modules-left": ["custom/launcher", "sway/workspaces", "custom/swap" , "tray", "sway/mode", "custom/cava-internal", "mpd#2", "mpd#3", "mpd#4", "mpd"],
-    "modules-center": ["clock"],
+    "modules-left": ["custom/launcher", "sway/workspaces", "custom/swap" , "tray", "sway/mode", "custom/cava-internal", "clock"],
+    "modules-center": ["custom/app0","custom/app1"],
     "modules-right": ["backlight", "pulseaudio", "custom/keyboard-layout", "temperature", "memory", "battery", "network", "custom/power"], 
     
  // Modules configuration
@@ -150,11 +150,11 @@
         // "interface": "wlp2s0", // (Optional) To force the use of this interface
         "format": "⚠  Disabled",
         "format-wifi": "  {essid}",
-        // "format-ethernet": " {ifname}: {ipaddr}/{cidr}",
-        "format-ethernet": "  Wired",
+        "format-ethernet": " {ifname}: {ipaddr}/{cidr}",
+        //"format-ethernet": "  Wired",
         "format-disconnected": "⚠  Disconnected",
         // "on-click": "alacritty -e nmtui"
-        "on-click": "nm-connection-editor"
+        "on-click": "~/.config/hypr/scripts/rofi_network"
     },
     "pulseaudio": {
         "scroll-step": 1,
@@ -199,7 +199,15 @@
 },
      "custom/launcher": {
     	"format":" ",
-    	"on-click": "exec nwg-drawer -c 7 -is 70 -spacing 23",
+    	"on-click": "~/.config/hypr/scripts/rofi_launcher",
     	"tooltip": false,
 },
+    "custom/app0":{
+      "format":" ",
+      "on-click":"brave",
+    },
+    "custom/app1":{
+      "format":" ",
+      "on-click":"thunar",
+    }
 }
