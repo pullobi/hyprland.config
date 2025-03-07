@@ -1,4 +1,4 @@
-# this is the config from [yurihikari](https://github.com/yurihikari/garuda-sway-confi).
+# this is the config from [yurihikari](https://github.com/yurihikari/).
 ## i just added a nvim theme and some fixes.
 ***
 ### Dependencies:
